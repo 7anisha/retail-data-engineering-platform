@@ -1,0 +1,7 @@
+pyspark
+delta-spark
+langchain
+openai
+python-dotenv
+sqlalchemy
+pandas
