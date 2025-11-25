@@ -1,0 +1,15 @@
+paths:
+  raw_csv: "/FileStore/retail/supermarket_sales.csv"
+
+  bronze:
+    sales: "dbfs:/mnt/retail/bronze/supermarket_sales"
+
+  silver:
+    clean_sales: "dbfs:/mnt/retail/silver/clean_sales"
+
+  gold:
+    dim_product: "dbfs:/mnt/retail/gold/dim_product"
+    fact_sales: "dbfs:/mnt/retail/gold/fact_sales"
+
+database:
+  sqlite_export: "retail.db"
