@@ -53,6 +53,7 @@ GenAI SQL Query Engine
 
 
 pip install -r requirements.txt
+
 python 1_ingestion/ingest_raw.py
 python 2_transformation/clean_transform.py
 python 2_transformation/create_gold_tables.py
